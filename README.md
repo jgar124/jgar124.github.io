@@ -9,4 +9,4 @@ These are some syntax abilities in Markdown.
 * *Italics*
 * ~~Strikethrough~~
 
-Thus concludes my website. This website will be used in the future to tell people about myself.
+Thus concludes my website. I will put many coding projects on this website in the future.
