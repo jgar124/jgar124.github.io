@@ -7,16 +7,17 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <link href="styles/styles.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+
 
 </head>
 <body>
-
   <nav class="shadow navbar navbar-expand-lg bg-light">
     <div class="justify-content-center container-fluid mt-2 mb-2">
       <a class="text-dark me-3 ms-3 text-decoration-none" href="projects.html">
         Projects
       </a>
-      <a class="navbar-brand me-3 ms-3 text-dark" href="#">
+      <a class="navbar-brand me-3 ms-3 text-dark" href="index.html">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
           <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
         </svg>
@@ -28,30 +29,12 @@
   </nav>
 
 
-  <div style="height: 13rem;" class="pop-up d-flex align-items-center justify-content-center container-fluid pb-5">
-    <p style="font-size: xx-large; font-weight: 300;">Hello! My name is Jason Garcia, and I am a Software Developer</p>
-  </div>
+<div class="d-flex justify-content-center">
+  <canvas id="pdf-canvas"></canvas>
+</div>
 
+<script src="scripts.js"></script>
 
-
-  <div class="pop-in container mx-auto">
-    <div class="text-center row ">
-      <div class="d-flex align-items-center justify-content-center col">
-        <img class="rounded-circle" src="eportfolia pic.jpg">
-      </div>
-      <div class="d-flex justify-content-center align-items-center col px-5">
-        <p style="font-size: larger;" class="pe-sm-5">Welcome! This is my personal website. Here you'll find portfolio, my resume, my contact info, and any other stuff I think would be cool to post here. I've had a love for computing that started when I built my gaming computer when I was 13 that hasn't left me since.</p>
-      </div>
-    </div>
-  </div>
-
-  <div>
-
-  </div>
-  <img src="">
-
-
-    <script src="scripts.js"></script>
 
 </body>
 </html>

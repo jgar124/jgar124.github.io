@@ -1,3 +1,25 @@
 .height{
  height: 15rem; 
 }
+
+.pop-in{
+  transition: all 0.4s ease;
+  transform: scale(0);
+  opacity: 0;
+}
+
+.pop-in.show{
+  transform: scale(1);
+  opacity: 1;
+}
+
+.pop-up{
+  opacity: 0;
+  transform: translateY(50px);
+  transition:  all 0.3s ease;
+}
+
+.pop-up.show{
+  transform: translateY(0);
+  opacity: 1;
+}
