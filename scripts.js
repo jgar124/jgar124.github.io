@@ -4,13 +4,13 @@ const popin = document.querySelectorAll(".pop-in")
 
 setTimeout(() => {
   popin.forEach(element => element.classList.add("show"));
-}, 300);
+}, 500);
 
 const popup = document.querySelectorAll(".pop-up")
 
 setTimeout(() => {
   popup.forEach(element => element.classList.add("show"));
-}, 200);
+}, 400);
 
 
 
@@ -47,7 +47,7 @@ async function bubblesort(bars){
   
   for(let i = 0; i < n; i++){
     for(let j = 0; j < n - i - 1; j++){
-      
+
     }
   }
 }
