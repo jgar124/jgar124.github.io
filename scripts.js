@@ -36,18 +36,3 @@ pdfjsLib.getDocument(url).promise.then(pdf => {
     })
   })
 })
-
-
-
-//projects.html
-//bubble sort
-
-async function bubblesort(bars){
-  let n = bars.length
-  
-  for(let i = 0; i < n; i++){
-    for(let j = 0; j < n - i - 1; j++){
-
-    }
-  }
-}

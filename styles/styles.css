@@ -23,3 +23,23 @@
   transform: translateY(0);
   opacity: 1;
 }
+
+.bars {
+  transition: transform 0.5s ease;
+}
+
+
+.swap{
+  color: crimson;
+}
+
+.card{
+  transform: 0.1s ease out;
+  transform-style: preserve-3d;
+  will-change: transform;
+  perspective: 800px;
+}
+
+.card > div {
+  pointer-events: none;
+}
