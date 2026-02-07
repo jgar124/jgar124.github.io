@@ -38,6 +38,7 @@
   transform-style: preserve-3d;
   will-change: transform;
   perspective: 800px;
+  
 }
 
 .card > div {
