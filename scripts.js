@@ -6,6 +6,12 @@ setTimeout(() => {
   popin.forEach(element => element.classList.add("show"));
 }, 500);
 
+const popin2 = document.querySelectorAll(".pop-in2")
+
+setTimeout(() => {
+  popin2.forEach(element => element.classList.add("show"));
+}, 750);
+
 const popup = document.querySelectorAll(".pop-up")
 
 setTimeout(() => {

@@ -8,7 +8,18 @@
   opacity: 0;
 }
 
+.pop-in2{
+  transition: all 0.4s ease;
+  transform: scale(0);
+  opacity: 0;
+}
+
 .pop-in.show{
+  transform: scale(1);
+  opacity: 1;
+}
+
+.pop-in2.show{
   transform: scale(1);
   opacity: 1;
 }
