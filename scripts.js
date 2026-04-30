@@ -24,7 +24,7 @@ setTimeout(() => {
 
 
 
-const url = 'Jason-Garcia-Resume.pdf';
+const url = 'Jason Garcia Resume.pdf';
 const canvas = document.getElementById("pdf-canvas");
 const context = canvas.getContext('2d')
 
